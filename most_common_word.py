@@ -46,3 +46,6 @@ paragraph = "Bob hit a ball, the hit BALL flew far after it was hit."
 banned = ["hit"]
 s = Solution
 print(s.mostCommonWord(paragraph, banned))
+
+Time Complexity: O(N)
+Space Complexity: O(N)
