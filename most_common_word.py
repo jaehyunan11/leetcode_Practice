@@ -24,18 +24,18 @@ class Solution:
         print(f"words: {words}")
 
         # 5) Loop through the words and count them.
-        for word in words:
+        for val in words:
             # word in not in banned and not in empty case
-            if word not in banned and word != '':
-                if word not in tracking_dict:
-                    tracking_dict[word] = 1
+            if val not in banned and val != '':
+                if val not in tracking_dict:
+                    tracking_dict[val] = 1
                 else:
-                    tracking_dict[word] += 1
+                    tracking_dict[val] += 1
         print(f"Tracking dictionary:{tracking_dict}")
 
         # 6) sorted tracking_dict by descending order
         sorted_dict = sorted(tracking_dict.items(),
-                             reverse=True, key=lambda x: (x[1], x[0]))
+                             key=lambda x: (-x[1], x[0]))
         print(f"Sorted Dictionary: {sorted_dict}")
 
         # 7) return first key in the first index from sorted dictionary
