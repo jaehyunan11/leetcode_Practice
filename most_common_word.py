@@ -2,11 +2,7 @@ import re
 
 
 class Solution:
-    def __init__(self, paragraph, banned):
-        self.paragraph = paragraph
-        self.banned = banned
-
-    def mostCommonWord(paragraph, banned):
+    def mostCommonWord(self, paragraph, banned):
         # 1) Create tracking empty dict
         tracking_dict = {}
         print(f"Initial Paragraph: {paragraph}")
@@ -44,8 +40,8 @@ class Solution:
 
 paragraph = "Bob hit a ball, the hit BALL flew far after it was hit."
 banned = ["hit"]
-s = Solution
+s = Solution()
 print(s.mostCommonWord(paragraph, banned))
 
-Time Complexity: O(N)
-Space Complexity: O(N)
+# Time Complexity: O(N)
+# Space Complexity: O(N)

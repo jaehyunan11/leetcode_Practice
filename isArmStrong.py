@@ -1,8 +1,5 @@
 class Solution:
-    def __init__(self, num):
-        self.num = num
-
-    def isArmstrong(num):
+    def isArmstrong(self, num):
         # 1) Cast N to a list of each digit. e.g. ["1", "2", "3"]
         num_list = list(str(num))
 
@@ -13,6 +10,6 @@ class Solution:
         return armstrong_value == num
 
 
-s = Solution
+s = Solution()
 num = 153
 print(s.isArmstrong(num))
