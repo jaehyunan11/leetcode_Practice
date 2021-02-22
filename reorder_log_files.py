@@ -24,8 +24,6 @@ class Solution:
                 digits.append(log)
             else:
                 letters.append(log)
-        print(f"Letters: {letters}")
-        print(f"Digits: {digits}")
         # sort first letter which is a id in letters
         letters.sort(key=lambda x: x.split()[0])
         print(f"Letters: {letters}")
