@@ -24,14 +24,6 @@ class Solution():
             prev = temp
         return prev
 
-        # next_node = curr_node.next  # Remember the next node
-        # curr_node.next = prev_node  # Reverse curr.next to prev
-        # prev_node = curr_node  # Used in the next iteration
-        # curr_node = next_node  # Move to next node
-
-        # head = prev_node
-        # return head
-
 
 s = Solution()
 head = [1, 2, 3, 4, 5]
