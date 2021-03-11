@@ -58,8 +58,11 @@ class Solution:
         print(self.dp)
         return ans
 
+# TIME COMPLEXITY : O(N)
+# SPACE COMPLEXITY : O(N)
+
 
 S = Solution()
-m = 3
-n = 4
+m = 2
+n = 3
 print(S.uniquePaths(m, n))

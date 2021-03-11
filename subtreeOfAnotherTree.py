@@ -6,7 +6,7 @@ class TreeNode:
 
 
 class Solution:
-    def treeString(self, root):
+    def treeString(self, root: TreeNode):
         if root.left is None:
             left = "lnull"
         else:
