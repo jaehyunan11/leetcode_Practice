@@ -37,7 +37,7 @@ class Solution:
         #
         for col in range(1, n):
             for row in range(col):
-                # every two chars are palindromes as well
+                # every two chars are palindromes (two characters are same)
                 if row == col - 1 and s[col] == s[row]:
                     dp[row][col] = 1
                     res += 1
