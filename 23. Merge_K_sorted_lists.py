@@ -3,5 +3,9 @@ class ListNode:
         self.val = x
         self.next = None
 
+
 class Solution:
-    def mergeLists(self, lists)
+    def mergeLists(self, lists):
+        """
+        lists : List[ListNode]
+        """
