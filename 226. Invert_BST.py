@@ -25,4 +25,4 @@ class Solution:
             if curr.right != None:
                 q.append(curr.right)
 
-        return False
+        return root
