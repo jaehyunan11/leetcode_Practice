@@ -25,3 +25,20 @@ class Solution:
             # reset the level
             level = []
         return result
+
+
+def levelOrderBottom(self, root):
+    deque, ret = collections.deque(), []
+    if root:
+        deque.append(root)
+    while deque:
+        level, size = [], len(deque)
+        for _ in range(size):
+            node = deque.popleft()
+            level.append(node.val)
+            if node.left:
+                deque.append(node.left)
+            if node.right:
+                deque.append(node.right)
+        ret.append(level)
+    return ret[::-1]

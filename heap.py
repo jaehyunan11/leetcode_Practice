@@ -1,4 +1,4 @@
-from heapq import heappush, heappop
+from heapq import heappush, heappop, heapify
 
 heap = []
 
@@ -10,5 +10,6 @@ heappush(heap, 3)
 heappush(heap, 11)
 heappush(heap, 9)
 heappop(heap)
+heapify(heap)
 
 print(heap)

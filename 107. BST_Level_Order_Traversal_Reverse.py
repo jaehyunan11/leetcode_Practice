@@ -11,7 +11,7 @@ class TreeNode:
 
 class Solution:
     def levelOrderBottom(self, root: TreeNode):
-        queue, res = deque(), []
+        deque, res = deque(), []
         if root:
             deque.append(root)
         while deque:
