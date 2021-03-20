@@ -13,6 +13,21 @@ class Solution:
                 dict[pair] = i
         print(dict)
         return False
+# algoExpert problem
+
+    def twoSum2(self, array, targetSum):
+        # hash table
+        index_map = {}
+
+        for num in array:
+            # store in the hash table for pair
+            pair = targetSum - num
+            if pair in index_map:
+                return [pair, num]
+            else:
+                index_map[num] = True
+        print(index_map)
+        return []
 
 # TIME: O(N) We traver the list of containing n elements
 # Space : O(N) the extra space required depends on the number of items stored in the hash table.
@@ -21,4 +36,5 @@ class Solution:
 S = Solution()
 nums = [2, 7, 11, 15]
 target = 9
-print(S.twoSum(nums, target))
+# print(S.twoSum(nums, target))
+print(S.twoSum2(nums, target))
