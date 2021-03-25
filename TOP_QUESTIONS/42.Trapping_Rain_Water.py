@@ -14,7 +14,7 @@ class Solution:
         ans = 0
 
         # using two pointers i and j on indices 0 and n-1
-        i = 0
+        i = 1
         j = len(height) - 1
 
         # initialising leftmax to the leftmost bar and rightmax to the rightmost bar
