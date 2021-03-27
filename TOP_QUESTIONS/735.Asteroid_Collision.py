@@ -24,5 +24,6 @@ class Solution:
             else:
                 res.append(x)
         return res
-
+# TIME : o(N)
+# space : o(N)
 S=Solution()
