@@ -5,9 +5,7 @@ class Solution:
     def connectSticks(self, sticks):
         # The idea is always pick the smallest values of sticks and add them
         # then put them back in sticks
-        print(sticks)
         heapify(sticks)
-        print(sticks)
 
         total_cost = 0
 
