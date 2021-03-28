@@ -1,5 +1,10 @@
 class Solution:
     def findCircleNum(self, isConnected):
+        def dfs()
+        visited = set()
+        numOfProvince = 0
+        n = len(isConnected)
+
         # N = len(isConnected)
         # visited = set()
         # result = 0
