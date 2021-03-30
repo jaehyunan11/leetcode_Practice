@@ -3,11 +3,11 @@ def puzzleSolver(puzzle, target):
     n = len(puzzle)
     # create queue
     queue = []
-    # first count
+    # set first count
     count = 1
     # rows and colums start with (0,0)
     rows = cols = 0
-    # Add first row, column, first num of puzzle, ''
+    # Add first row, column, first num of puzzle, ''(empty string)
     queue.append([rows, cols, puzzle[0][0], ''])
 
     # loop queue until it is empty

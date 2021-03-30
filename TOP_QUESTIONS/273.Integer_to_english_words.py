@@ -51,7 +51,7 @@ class Solution:
                 s = s + convert1[num // 100] + "Hundred"
 
             if num > 19:
-                s = s + convert3[num // 10] + ''
+                s = s + convert3[num // 10] + ' '
                 num = num % 10
 
             if num > 0:
