@@ -25,3 +25,6 @@ class Solution(object):
             for child in root.children[::-1]:
                 stack.append(child)
         return result
+
+# TIME : O(N) where N is the number of node
+# space : O(N) size of the tree
