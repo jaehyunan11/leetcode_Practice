@@ -23,6 +23,11 @@ class TreeNode:
 6 -> [] + [6] + []
  
 """
+# stack, result = [], []
+# If root is not empty add the root to stack and set root as root.left
+# pop out root from stack
+# add root val to result list
+#
 
 
 class Solution:

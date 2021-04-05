@@ -41,3 +41,5 @@ class MycircularQueue:
             return True
         else:
             return False
+
+# TIME O(K) where K is
