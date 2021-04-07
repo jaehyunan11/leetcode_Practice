@@ -18,6 +18,9 @@ class Solution:
         # return ans + trucksize * number of units per box
         # return ans
 
+# TIME : O(NLog(N)) since we sored the boxtype Log(N) and iterate each box by N
+# Space : O(1) no extra space is used.
+
 
 S = Solution()
 boxTypes = [[1, 3], [2, 2], [3, 1]]

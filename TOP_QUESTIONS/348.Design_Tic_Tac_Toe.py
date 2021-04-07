@@ -51,5 +51,7 @@ class TicTacToe:
         # SPACE COMPLEXITY : O(N) ##
 
 
-rows = [0] * 3
-print(rows)
+self.row = [0] * 3
+row = 1
+col = 0
+print(row[0])
