@@ -25,6 +25,3 @@ class Solution:
 
         # TIME : O(N) where N is number of prices
         # SPACE : O(1) linear space and no extra space is needed
-
-
-prices
