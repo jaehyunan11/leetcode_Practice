@@ -25,7 +25,7 @@ class Solution:
         return False
 
 # TIME : O(N) We traverse the list containing n elements once
-# SPACE : O(N) extra space required depends on the number of items stored in the hash table
+# SPACE : c
 
 
 S = Solution()
