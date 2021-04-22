@@ -4,4 +4,6 @@
 199 Binary Tree Right Side View (M) - Completed
 23 Merge k Sorted Lists (H) - Not Yet
 200 Number of Islands (M) - Completed
-5 Longest Palindromic Substring
+5 Longest Palindromic Substring (M) - Completed
+8 String to Integer (atoi)
+49 Group Anagrams (M)
