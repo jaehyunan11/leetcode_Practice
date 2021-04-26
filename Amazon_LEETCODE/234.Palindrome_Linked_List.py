@@ -14,5 +14,5 @@ class Solution:
         return vals == vals[::-1]
 
 # TIME : O(N) where n is the number of nodes in the Linked List
-# SPACe : O(N) where n is the number of nodes in the Linked List.
+# SPACE : O(N) where n is the number of nodes in the Linked List.
 # We are making an Array List and adding nn values to it.

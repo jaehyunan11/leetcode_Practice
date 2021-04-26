@@ -11,6 +11,9 @@ class Solution:
                 pos += 1
         return nums
 
+# TIME O(N) : N is length of nums
+# Space O(1) : Only constant space is used.
+
 
 S = Solution()
 nums = [0, 1, 0, 3, 12]
