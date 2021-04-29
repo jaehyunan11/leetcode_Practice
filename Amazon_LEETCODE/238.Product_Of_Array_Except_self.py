@@ -13,9 +13,11 @@ class Solution:
         # scan from right to left
         temp = 1
         for i in range(len(nums) - 2, -1, -1):
+            print(i)  # 2 -> 1 -> 0
             temp = temp * nums[i+1]
-            print(temp)
+            print(temp)  # 1 * 4, 4 * 3, 12 * 2
             res[i] = res[i] * temp
+            print(res)
         return res
 # TIME : O(N) N represents the number of elements in the input array
 # Space : O(1) we don't use additioal array for computation.
