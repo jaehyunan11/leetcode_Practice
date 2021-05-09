@@ -58,6 +58,13 @@ class Solution:
     # Space : O(N) where N is the size of the grid.
 
 
+class Solution2:
+    def organgesRotting(self, grid):
+        pass
+
+
 S = Solution()
+S2 = Solution2()
 grid = [[2, 1, 1], [1, 1, 0], [0, 1, 1]]
 print(S.orangesRotting(grid))
+print(S2.organgesRotting(grid))
