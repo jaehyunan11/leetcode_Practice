@@ -27,3 +27,8 @@ class Solution:
 
 # TIME : O(log(n)) k is the size of the number (divide the input by 10 for every iteration)
 # SPACE : O(1)
+
+
+S = Solution()
+x = 1234
+print(S.isPalindrome(x))
